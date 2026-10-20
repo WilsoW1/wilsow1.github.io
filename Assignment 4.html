@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canada Through My Lens</title>
+
+<style>
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf8f4;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+header {
+    background: linear-gradient(120deg, #284e45, #6b8b74);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 17px;
+    margin: 8px;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #e4ebe4;
+    text-align: center;
+    padding: 16px;
+}
+
+nav a {
+    color: #284e45;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+}
+
+nav a:hover {
+    color: #c47a3d;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+}
+
+h2 {
+    color: #315b4d;
+}
+
+/* INTRODUCTION */
+
+.intro {
+    text-align: center;
+    max-width: 780px;
+    margin: 40px auto 55px;
+}
+
+.intro h2 {
+    font-size: 30px;
+}
+
+/* PHOTO GALLERY */
+
+.photo-section {
+    background: white;
+    padding: 28px;
+    margin-bottom: 38px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.photo-section h2 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.photo-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.photo-box {
+    text-align: center;
+}
+
+.photo-box img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    background-color: #eef0ed;
+    border-radius: 10px;
+    display: block;
+}
+
+.photo-box h3 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* CAPTIONS */
+
+.caption {
+    background-color: #edf4ee;
+    border-left: 5px solid #7b9d83;
+    padding: 18px;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+
+/* REFLECTION */
+
+.reflection {
+    background-color: #e3ebe4;
+    padding: 35px;
+    margin: 45px 0;
+    border-radius: 14px;
+}
+
+.reflection h2 {
+    margin-top: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #284e45;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .photo-pair {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-box img {
+        height: 280px;
+    }
+
+    .photo-section {
+        padding: 18px;
+    }
+
+    .reflection {
+        padding: 22px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <h1>Canada Through My Lens</h1>
+    <p>Exploring Nature and City Life in Canada</p>
+    <p>Assignment 4: Photo Composition</p>
+</header>
+
+<!-- NAVIGATION -->
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Photo Gallery</a>
+    <a href="#reflection">Reflection</a>
+</nav>
+
+<main>
+
+<!-- INTRODUCTION -->
+
+<section id="home" class="intro">
+
+    <h2>Introduction</h2>
+
+    <p>
+        Canada has beautiful nature and modern cities.
+        In this project, I took six photos to show
+        different views of Canada.
+        I used six photography techniques to make
+        my photos more interesting.
+        I also edited each photo to improve its
+        colours, lighting, and composition.
+    </p>
+
+</section>
+
+<!-- PHOTO GALLERY -->
+
+<section id="gallery">
+
+<!-- PHOTO 1: RULE OF THIRDS -->
+
+<div class="photo-section">
+
+    <h2>1. Rule of Thirds</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image1.jpg" alt="Original autumn tree">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image2.jpg" alt="Edited autumn tree">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        I placed the tree near the right third of
+        the photo. This draws attention to the
+        golden leaves and creates a natural view.
+        I cropped the photo to remove extra space
+        and make the tree stand out.
+    </p>
+
+</div>
+
+<!-- PHOTO 2: LEADING LINES -->
+
+<div class="photo-section">
+
+    <h2>2. Leading Lines</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image3.jpg" alt="Original sidewalk">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image4.jpg" alt="Edited sidewalk">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        The sidewalk creates leading lines that
+        guide the viewer's eyes into the distance.
+        The trees on both sides make the scene
+        look warm and peaceful.
+        I removed the car and made the autumn
+        colours brighter to help the viewer
+        focus on the path.
+    </p>
+
+</div>
+
+<!-- PHOTO 3: FRAMING -->
+
+<div class="photo-section">
+
+    <h2>3. Framing</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image5.jpg" alt="Original CN Tower">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image6.jpg" alt="Edited CN Tower">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        The buildings on both sides create a
+        frame around the CN Tower.
+        This draws attention to the tower
+        and makes it the main subject.
+        I increased the contrast and made
+        the sky bluer to help the tower
+        stand out more clearly.
+    </p>
+
+</div>
+
+<!-- PHOTO 4: BALANCE -->
+
+<div class="photo-section">
+
+    <h2>4. Balance</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image7.jpg" alt="Original waterfront">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image8.jpg" alt="Edited waterfront">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        The large boat on the left balances
+        the trees and open water on the right.
+        This creates asymmetrical balance
+        and makes the view feel calm.
+        I increased the colour and contrast
+        to make the boat, water, and skyline
+        look clearer.
+    </p>
+
+</div>
+
+<!-- PHOTO 5: CONTRAST -->
+
+<div class="photo-section">
+
+    <h2>5. Contrast</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image9.jpg" alt="Original maple leaf">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image10.jpg" alt="iEdited maple leaf">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        The bright red maple leaf stands out
+        against the grey ground.
+        This colour contrast makes the leaf
+        the main subject and attracts attention.
+        I increased the saturation and contrast
+        to make the red colour stronger
+        and show the beauty of autumn.
+    </p>
+
+</div>
+
+<!-- PHOTO 6: COLOUR -->
+
+<div class="photo-section">
+
+    <h2>6. Colour</h2>
+
+    <div class="photo-pair">
+
+        <div class="photo-box">
+            <img src="photos/image11.jpg" alt="Original autumn landscape">
+            <h3>Original</h3>
+        </div>
+
+        <div class="photo-box">
+            <img src="photos/image12.jpg" alt="Edited autumn landscape">
+            <h3>Edited</h3>
+        </div>
+
+    </div>
+
+    <p class="caption">
+        The red, orange, yellow, and green trees
+        show the beauty of autumn in Canada.
+        These bright colours attract attention
+        and make the landscape interesting.
+        I cropped the photo to remove
+        distractions and help the viewer
+        focus on the colourful forest and lake.
+    </p>
+
+</div>
+
+</section>
+
+<!-- REFLECTION -->
+
+<section id="reflection" class="reflection">
+
+    <h2>My Reflection</h2>
+
+    <p>
+        I think my strongest photo is Photo 3,
+        Framing. The two buildings create a
+        clear frame around the CN Tower.
+        This makes the tower stand out
+        and shows the beauty of Toronto.
+    </p>
+
+    <p>
+        Editing improved this photo because
+        I increased the contrast and made
+        the sky bluer. The tower became clearer,
+        and the frame looked stronger.
+        This helps the viewer focus on
+        the main subject.
+    </p>
+
+    <p>
+        If I did this project again,
+        I would take photos at different times
+        of the day. Softer sunlight could
+        show more details in the buildings
+        and make the photo look more natural.
+        I also learned that small changes
+        can make a big difference in photography.
+    </p>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+    <p>Canada Through My Lens</p>
+    <p>Communications Technology | Assignment 4</p>
+</footer>
+
+</body>
+</html>
